@@ -1,7 +1,8 @@
 # Infix Expression Calculator
 
-## Overview
-This project implements an infix expression calculator using a custom linked stack data structure.
+## Overview\
+The Infix Expression Calculator project is using a linked list data structure to implement a stack.
+This is encapsulated in the LinkedStack class, which provides stack operations using a linked list.
 The calculator supports conversion of infix expressions to postfix (Reverse Polish Notation, RPN) expressions
 and evaluation of these postfix expressions.
 
