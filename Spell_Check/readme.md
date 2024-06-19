@@ -1,4 +1,4 @@
-Spelling Checker Program.
+Spelling Checker Program:
 The goal of this program is to check a given input file for spelling errors by comparing each word in the file to a dictionary of correctly spelled words.
 The program outputs a list of any misspelled words found in the input file.
 
