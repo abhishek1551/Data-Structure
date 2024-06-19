@@ -1,29 +1,24 @@
-Spelling Checker Program:
-The goal of this program is to check a given input file for spelling errors by comparing each word in the file to a dictionary of correctly spelled words.
-The program outputs a list of any misspelled words found in the input file.
+# Spell Checker 
+## Overview
+This project is a spelling checker program designed to identify spelling errors in a given input file by comparing each word against a dictionary
+of correctly spelled words. It uses a Doubly Linked List data structure, specifically implemented as a DLinkedBag (Doubly Linked Bag).
+It outputs a list of any misspelled words found in the input file.
 
-Input
-Dictionary File: Contains a list of correctly spelled words.
-Input File: Contains a list of words to check for spelling errors.
+## Features
+•  Dictionary Handling: Loads a dictionary file containing correctly spelled words.
 
-Output
-A list of any misspelled words found in the input file.
+•  Spell Checking: Scans through an input file and identifies misspelled words.
 
-Approach
-Data Structure: Uses a DLinkedBag data structure to store words from the dictionary and any misspelled words.
+•  Output: Displays a list of misspelled words found in the input file.
 
-Reading Files:
-Reads the dictionary file and adds each word to the DLinkedBag.
-Reads the input file and checks each word for spelling errors.
+## Components
+•  DLinkedBag Data Structure: Implements a doubly linked list-based bag to store dictionary words and misspelled words.
 
-Checking Words:
-Compares each word from the input file with the dictionary.
-If a word is not found in the dictionary, it is added to the misspelledWords DLinkedBag.
+•  Main Program Logic: Manages file reading, word comparison, and output generation.
+
+## Files
+  •  DLinkedBag.h and DLinkedBag.cpp: Implementation of the DLinkedBag class.
+  
+  •  main.cpp: Main function to execute the spelling checker program.
 
 
-Output: Prints the list of misspelled words to the console.
-Words are separated by whitespace (spaces, tabs, newlines).
-
-Note:
-The program does not consider capitalization or punctuation (e.g., "Apple" and "apple!" are different words).
-The output is a list of misspelled words without suggestions for corrections.
